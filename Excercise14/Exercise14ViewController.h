@@ -13,7 +13,7 @@
 }
 
 
-@property (strong, nonatomic) IBOutlet UIButton *sendTweetButton;
+@property (retain, nonatomic) IBOutlet UIButton *sendTweetButton;
 
 - (IBAction)sendTweet:(id)sender;
 - (void)checkTweetingStatus;

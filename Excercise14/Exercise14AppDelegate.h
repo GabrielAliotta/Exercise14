@@ -14,8 +14,8 @@
     
 }
 
-@property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) Exercise14ViewController *viewController;
+@property (retain, nonatomic) Exercise14ViewController *viewController;
 
 @end

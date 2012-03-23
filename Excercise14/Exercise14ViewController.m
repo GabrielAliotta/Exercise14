@@ -48,7 +48,9 @@
     }];
     
     // Present the tweet composition view controller modally.
-    [self presentModalViewController:tweetViewController animated:YES];    
+    [self presentModalViewController:tweetViewController animated:YES];
+    
+    [tweetViewController release];
     
 }
 
@@ -67,7 +69,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    /*
     [self checkTweetingStatus];
+     */
 
 }
 
